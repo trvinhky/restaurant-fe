@@ -143,6 +143,44 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <div className="h-[50vh] bg-[url('/images/stats-bg.jpg')] bg-cover bg-center relative after:content-[''] after:absolute after:left-0 after:top-0 after:w-full after:h-full after:z-0 after:bg-black/40 flex justify-center items-center">
+                <div className="container mx-auto flex-1 relative z-1">
+                    <div className="flex justify-evenly items-center">
+                        <div className='font-bold'>
+                            <h4 className='text-white text-5xl'>
+                                232
+                            </h4>
+                            <p className='text-white/60'>
+                                Clients
+                            </p>
+                        </div>
+                        <div className='font-bold'>
+                            <h4 className='text-white text-5xl'>
+                                521
+                            </h4>
+                            <p className='text-white/60'>
+                                Projects
+                            </p>
+                        </div>
+                        <div className='font-bold'>
+                            <h4 className='text-white text-5xl'>
+                                1453
+                            </h4>
+                            <p className='text-white/60'>
+                                Hours Of Support
+                            </p>
+                        </div>
+                        <div className='font-bold'>
+                            <h4 className='text-white text-5xl'>
+                                32
+                            </h4>
+                            <p className='text-white/60'>
+                                Workers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }
